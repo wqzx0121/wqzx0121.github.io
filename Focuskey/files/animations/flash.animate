@@ -1,0 +1,21 @@
+/* 
+  Name:			Flash
+  Type:			Emphasis
+  Description:	Flash Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"闪动", "en-US":"Flash"}
+  Parameter:    <^   {"Options":{"times":1}}   $>
+ */
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation-name: flash;
+}

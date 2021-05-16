@@ -1,0 +1,18 @@
+/* 
+  Name:			Path Arc
+  Type:			Path
+  Description:	Path Arc Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"弧形路径", "en-US":"Path Arc"}
+  Class:        PathEffect
+  Order:		02
+  Parameter:    <^	{"Options":{"times":1, "useHand":false}, "MotionPath":{"version":"1.0", "isClose":false,"rect":[0,0,100,50],"nodeInfos":[{"alpha":1,"rotation":0,"position":{"nodePointX":0,"prevPointY":1.5543090514527689,"lastPointY":0.44569094854723107,"nodePointY":1,"prevPointX":0,"lastPointX":0},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointX":0.5,"prevPointY":0,"lastPointY":0,"nodePointY":0,"prevPointX":0.22284547427361553,"lastPointX":0.7771545257263844},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointX":1,"prevPointY":0.44569094854723107,"lastPointY":1.5543090514527689,"nodePointY":1,"prevPointX":1,"lastPointX":1},"scale":1}],"rotateType":"None"}}	$>
+ */
+ 
+@keyframes pathArc {
+	
+}
+
+.pathArc {
+  animation-duration: 5s;
+}

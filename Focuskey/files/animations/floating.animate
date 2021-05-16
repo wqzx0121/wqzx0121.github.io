@@ -1,0 +1,31 @@
+/* 
+  Name:			Floating
+  Type:			Emphasis
+  Description:	Floating Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"浮动", "en-US":"Floating"}
+  Parameter:    <^   {"Options":{"times":1}}   $>
+ */
+ 
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}

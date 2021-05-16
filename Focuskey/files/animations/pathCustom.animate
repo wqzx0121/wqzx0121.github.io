@@ -1,0 +1,18 @@
+/* 
+  Name:			Path Custom
+  Type:			Path
+  Description:	Path Custom Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"自定义路径", "en-US":"Path Custom"}
+  Class:        PathEffect
+  Order:		00
+  Parameter:    <^	{"Options":{"times":1, "useHand":false}, "MotionPath":{"version":"1.0", "rect":[0,0,100,100],"nodeInfos":[{"alpha":1,"rotation":0,"position":{"nodePointY":0,"lastPointX":0.5,"nodePointX":0,"lastPointY":0},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointY":0.5,"nodePointX":0.5},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointY":1,"nodePointX":1,"prevPointY":1,"prevPointX":0.5},"scale":1}],"rotateType":"None","isClose":false}}	$>
+ */
+ 
+@keyframes pathCustom {
+	
+}
+
+.pathCustom {
+  animation-duration: 5s;
+}
